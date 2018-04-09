@@ -6,10 +6,12 @@
 #include "FibonacciNumbers.h"
 #include "LastDigitLargeFibonacciNum.h"
 #include "GreatestCommonDivisor.h"
+#include "LeastCommonMultiple.h"
+#include "HugeFiboNumMod.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	GreatestCommonDivisor();
+	HugeFiboNumMod();
 	return 0;
 }
 

@@ -21,7 +21,10 @@ def alternativeSol(n):
 
 	return current
 
-#n = int(input())
+n = int(input())
+print(alternativeSol(n))
+
+'''
 for n in range(0, 10000001):
 	a = memorySol(n)
 	b = alternativeSol(n)
@@ -30,3 +33,4 @@ for n in range(0, 10000001):
 	else:
 		print(n, " - fail", a, "/", b)
 		break
+'''
