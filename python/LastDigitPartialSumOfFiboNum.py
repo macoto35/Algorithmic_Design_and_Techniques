@@ -1,4 +1,6 @@
 
+from random import *
+
 def naive(m, n):
     
     sum = 0
@@ -40,7 +42,23 @@ def getFibo(v):
     a = arr[ v % len(arr) ]
     return 9 if a == 0 else a - 1
 
-m, n = map(int, input().split())
 arr = setFibo()
-print("naive: ", naive(m, n))
+
+m, n = map(int, input().split())
+# print("naive: ", naive(m, n))
 print("fast: ", fast(m, n))
+
+'''
+N = int(input())
+
+while 1:
+	a = randint(0, N)
+	b = randint(0, N)
+	m = min(a, b)
+	n = max(a, b)
+	if naive(m, n) == fast(m, n):
+		print(m, n, " - ok")
+	else:
+		print(m, n, " - fail")
+		break
+'''
