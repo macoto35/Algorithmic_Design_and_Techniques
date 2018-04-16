@@ -8,11 +8,12 @@
 #include "GreatestCommonDivisor.h"
 #include "LeastCommonMultiple.h"
 #include "HugeFiboNumMod.h"
-#include "LastDigitOfSumOfFiboNum.h"
+#include "LastDigitParticialSumOfFiboNum.h"
+#include "ChangingMoney.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LastDigitOfSumOfFiboNum();
+	ChangingMoney();
 	return 0;
 }
 

@@ -14,5 +14,6 @@
 #include <vector>
 #include <algorithm>
 #include <cassert>
+#include <array>
 
 // TODO: reference additional headers your program requires here
