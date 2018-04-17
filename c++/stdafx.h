@@ -10,10 +10,13 @@
 #include <stdio.h>
 #include <tchar.h>
 
-#include <iostream>
+#include <iostream> // cout
 #include <vector>
-#include <algorithm>
+#include <algorithm> // sort, min, max
 #include <cassert>
 #include <array>
+#include <string>
+#include <iomanip> // fixed, setprecision
+#include <fstream> // file in/out
 
 // TODO: reference additional headers your program requires here

@@ -10,10 +10,12 @@
 #include "HugeFiboNumMod.h"
 #include "LastDigitParticialSumOfFiboNum.h"
 #include "ChangingMoney.h"
+#include "CelebrationParty.h"
+#include "FractionKnapsack.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ChangingMoney();
+	FractionKnapsack();
 	return 0;
 }
 
