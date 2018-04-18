@@ -12,10 +12,12 @@
 #include "ChangingMoney.h"
 #include "CelebrationParty.h"
 #include "FractionKnapsack.h"
+#include "MaxRevAd.h"
+#include "CollectionSignature.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	FractionKnapsack();
+	CollectionSignature();
 	return 0;
 }
 
