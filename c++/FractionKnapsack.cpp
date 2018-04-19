@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "FractionKnapsack.h"
+
 
 using namespace std;
 
@@ -32,7 +32,7 @@ double greedyFast(int W, vector<Pair> &items)
 	return maxValue;
 }
 
-FractionKnapsack::FractionKnapsack()
+int start()
 {
 	/*int n, W, v, w;
 	cin >> n >> W;
@@ -72,9 +72,7 @@ FractionKnapsack::FractionKnapsack()
 	sort(items.begin(), items.end(), comp);
 
 	cout << fixed << setprecision(4) << greedyFast(W, items) << endl;
+
+	return 0;
 }
 
-
-FractionKnapsack::~FractionKnapsack()
-{
-}

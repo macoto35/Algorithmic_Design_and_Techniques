@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "FastMaxPairwiseProduct.h"
+
 
 using namespace std;
 
@@ -41,7 +41,7 @@ double fastest(vector<double> &numbers)
 	return numbers[n - 1] * numbers[n - 2];
 }
 
-FastMaxPairwiseProduct::FastMaxPairwiseProduct()
+int start()
 {
 	cout << "hello-----------------------------!" << endl;
 	int n = 0;
@@ -55,9 +55,6 @@ FastMaxPairwiseProduct::FastMaxPairwiseProduct()
 	cout << "naive result: " << naive(numbers) << endl;
 	cout << "fast result: " << fast(numbers) << endl;
 	cout << "fastest result: " << fastest(numbers) << endl;
-}
 
-FastMaxPairwiseProduct::~FastMaxPairwiseProduct()
-{
-	cout << "bye-------------------------------!" << endl;
+	return 0;
 }

@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "MaxRevAd.h"
 
 using namespace std;
 
@@ -18,7 +17,7 @@ long long greedy(int n, vector<long long> &a, vector<long long> &b)
 	return sum;
 }
 
-MaxRevAd::MaxRevAd()
+int start()
 {
 	/*int n;
 	cin >> n;
@@ -70,9 +69,6 @@ MaxRevAd::MaxRevAd()
 	sort(b.begin(), b.end(), comp);
 
 	cout << greedy(n, a, b) << endl;
-}
 
-
-MaxRevAd::~MaxRevAd()
-{
+	return 0;
 }

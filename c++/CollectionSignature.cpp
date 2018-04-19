@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "CollectionSignature.h"
 
 using namespace std;
 
@@ -40,7 +39,7 @@ int greedy(vector<Time> &arr)
 	return res.size();
 }
 
-CollectionSignature::CollectionSignature()
+int start()
 {
 	/*int n;
 	cin >> n;
@@ -76,9 +75,7 @@ CollectionSignature::CollectionSignature()
 	sort(arr.begin(), arr.end(), comp);
 
 	cout << greedy(arr) << endl;
+	
+	return 0;
 }
 
-
-CollectionSignature::~CollectionSignature()
-{
-}

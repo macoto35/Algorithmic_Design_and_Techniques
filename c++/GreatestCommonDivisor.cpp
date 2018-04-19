@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "GreatestCommonDivisor.h"
 
 using namespace std;
 
@@ -26,7 +25,7 @@ int euclidean(int a, int b)
 	return euclidean(b, a%b);
 }
 
-GreatestCommonDivisor::GreatestCommonDivisor()
+int start()
 {
 	cout << "Hello--------------------------------" << endl;
 	int a = 0, b = 0;
@@ -35,10 +34,7 @@ GreatestCommonDivisor::GreatestCommonDivisor()
 
 	cout << naive(a, b) << endl;
 	cout << euclidean(a, b) << endl;
+
+	return 0;
 }
 
-
-GreatestCommonDivisor::~GreatestCommonDivisor()
-{
-	cout << "Bye--------------------------------" << endl;
-}

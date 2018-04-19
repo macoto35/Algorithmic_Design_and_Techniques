@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "HugeFiboNumMod.h"
 
 using namespace std;
 
@@ -41,17 +40,14 @@ int fast(long long n, int m)
 	return arr[ (int)(n % (i - 1)) ];
 }
 
-HugeFiboNumMod::HugeFiboNumMod()
+int start()
 {
 	long long n;
 	int m;
 	cin >> n >> m;
 	// cout << naive(n, m) << endl;
 	cout << fast(n, m) << endl;
+
+	return 0;
 }
 
-
-HugeFiboNumMod::~HugeFiboNumMod()
-{
-	cout << "end------------------" << endl;
-}

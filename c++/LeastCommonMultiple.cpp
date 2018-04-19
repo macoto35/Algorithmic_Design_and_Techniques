@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "LeastCommonMultiple.h"
+
 
 using namespace std;
 
@@ -24,17 +24,13 @@ long long fast(int a, int b)
 	return (long long) a * b / GCD(a, b);
 }
 
-LeastCommonMultiple::LeastCommonMultiple()
+int start()
 {
 	cout << "Hello------------------------------" << endl;
 	int a, b;
 	cin >> a >> b;
 	// cout << naive(a, b) << endl;
 	cout << fast(a, b) << endl;
-}
 
-
-LeastCommonMultiple::~LeastCommonMultiple()
-{
-	cout << "Bye------------------------------" << endl;
+	return 0;
 }

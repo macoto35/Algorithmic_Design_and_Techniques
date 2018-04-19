@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "LastDigitOfSumOfFiboNum.h"
 
 using namespace std;
 
@@ -53,17 +52,14 @@ int fast(long long n)
 	return val > 0 ? val - 1 : 9;
 }
 
-LastDigitOfSumOfFiboNum::LastDigitOfSumOfFiboNum()
+int start()
 {
 	cout << "Hello--------------------------" << endl;
 	long long n;
 	cin >> n;
 	cout << naive(n) << endl;
 	cout << fast(n) << endl;
+
+	return 0;
 }
 
-
-LastDigitOfSumOfFiboNum::~LastDigitOfSumOfFiboNum()
-{
-	cout << "Bye--------------------------" << endl;
-}

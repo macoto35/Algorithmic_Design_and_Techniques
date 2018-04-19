@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "LastDigitParticialSumOfFiboNum.h"
 
 using namespace std;
 
@@ -51,17 +50,14 @@ int fast(long long m, long long n)
 	return partSum < 0 ? partSum + 10 : partSum;
 }
 
-LastDigitParticialSumOfFiboNum::LastDigitParticialSumOfFiboNum()
+int start()
 {
 	cout << "Hello-----------------------------" << endl;
 	long long m, n;
 	cin >> m >> n;
 	cout << naive(m, n) << endl;
 	cout << fast(m, n) << endl;
+
+	return 0;
 }
 
-
-LastDigitParticialSumOfFiboNum::~LastDigitParticialSumOfFiboNum()
-{
-	cout << "Bye------------------------------" << endl;
-}

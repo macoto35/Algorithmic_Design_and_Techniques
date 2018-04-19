@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "LastDigitLargeFibonacciNum.h"
 
 using namespace std;
 
@@ -37,7 +36,7 @@ int alternativeSol(int n)
 	return current;
 }
 
-LastDigitLargeFibonacciNum::LastDigitLargeFibonacciNum()
+int start()
 {
 	cout << "Hello--------------------------------" << endl;
 	/*int n = 0;
@@ -57,10 +56,6 @@ LastDigitLargeFibonacciNum::LastDigitLargeFibonacciNum()
 			break;
 		}
 	}
-}
 
-
-LastDigitLargeFibonacciNum::~LastDigitLargeFibonacciNum()
-{
-	cout << "Bye--------------------------------" << endl;
+	return 0;
 }

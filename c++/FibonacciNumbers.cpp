@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "FibonacciNumbers.h"
 
 using namespace std;
 
@@ -28,7 +27,7 @@ double fastSol(int n)
 	return arr[n];
 }
 
-FibonacciNumbers::FibonacciNumbers()
+int start()
 {
 	cout << "Hello----------------------" << endl;
 	int n = 0;
@@ -41,10 +40,6 @@ FibonacciNumbers::FibonacciNumbers()
 		assert(naiveSol(n) == fastSol(n));
 		cout << n << endl;
 	}
-}
 
-
-FibonacciNumbers::~FibonacciNumbers()
-{
-	cout << "Bye----------------------" << endl;
+	return 0;
 }

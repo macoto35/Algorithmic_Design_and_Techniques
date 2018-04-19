@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "ChangingMoney.h"
 
 using namespace std;
 
@@ -30,17 +29,13 @@ int greedy(int m)
 	return cnt;
 }
 
-ChangingMoney::ChangingMoney()
+int start()
 {
 	cout << "Hello--------------------------" << endl;
 	int m;
 	cin >> m;
 	cout << naive(m) << endl;
 	cout << greedy(m) << endl;
-}
 
-
-ChangingMoney::~ChangingMoney()
-{
-	cout << "Bye--------------------------" << endl;
+	return 0;
 }
