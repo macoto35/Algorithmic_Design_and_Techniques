@@ -2,12 +2,12 @@
 //
 
 #include "stdafx.h"
-#include "MaxSalary.h"
+#include "BinarySearch.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MaxSalary();
+	BinarySearch();
 	return 0;
 }
 
