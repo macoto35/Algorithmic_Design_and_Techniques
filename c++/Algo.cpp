@@ -2,13 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "BinarySearch.h"
+#include "MultiplyPolynomial.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	BinarySearch();
+	MultiplyPolynomial();
 	return 0;
 }
-
-
