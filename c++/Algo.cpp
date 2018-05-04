@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "MultiplyPolynomial.h"
+#include "SelectionSort.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MultiplyPolynomial();
+	SelectionSort();
 	return 0;
 }
