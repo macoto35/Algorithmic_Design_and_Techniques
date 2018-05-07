@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "SelectionSort.h"
+#include "CountSort.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SelectionSort();
+	CountSort();
 	return 0;
 }
