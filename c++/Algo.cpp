@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "CountSort.h"
+#include "NumInversion.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	CountSort();
+	NumInversion();
 	return 0;
 }
