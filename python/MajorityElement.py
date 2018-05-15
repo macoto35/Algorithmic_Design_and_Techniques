@@ -33,8 +33,8 @@ def greedy(arr):
       else:
         idx += 1
     if count > mid:
-      return 1
-  return 0
+      return cur
+  return -1
 
 
 def scan(arr, size):
@@ -73,12 +73,55 @@ def divideAndConquer(arr, st, ed):
   b = divideAndConquer(arr, m + 1, ed)
   return findMajority(arr, st, ed, a, b)
 
+
+def merge(A, B):
+  if len(A[0]) > 0 and len(B[0]) > 0 and A[0][0] == B[0][0]:
+    A[0] += B[0]
+    B[0] = []
+  else:
+    i = 0
+    while len(B[1]) > i :
+      if len(A[0]) > 0 and B[1][i] == A[0][0]:
+        A[0].append(B[1].pop(i))
+      else:
+        i += 1
+
+    i = 0
+    while len(A[1]) > i:
+      if len(B[0]) > 0 and A[1][i] == B[0][0]:
+        B[0].append(A[1].pop(i))
+      else:
+        i += 1
+
+  majorityCnt = len(A[0]+A[1]+B[0]+B[1]) // 2
+
+  if len(A[0]) > majorityCnt:
+    A[1] += B[0] + B[1]
+    return A
+  elif len(B[0]) > majorityCnt:
+    B[1] += A[0] + A[1]
+    return B
+  else:
+    return [[], A[0]+A[1]+B[0]+B[1]]
+
+def divideAndConquerNew(arr, st, ed):
+  if st == ed:
+    return [[ arr[st] ], []];
+
+  m = st + (ed - st) // 2
+
+  A = divideAndConquerNew(arr, st, m)
+  B = divideAndConquerNew(arr, m + 1, ed)
+
+  return merge(A, B)
+
 '''
-arr = [2,2,3,7,7]
+arr = [2,2,3,2,7]
 arr1 = [1,2,3,1,1]
-print(naive(arr))
-print(greedy(arr1))
-print(divideAndConquer(arr, 0, len(arr1) - 1))
+#print(naive(arr))
+#print(greedy(arr1))
+#print(divideAndConquer(arr, 0, len(arr1) - 1))
+print(divideAndConquerNew(arr, 0, len(arr) - 1))
 '''
 
 '''
@@ -92,7 +135,7 @@ while True:
   
   print(arr, arr1, end = ' ')
   r1 = greedy(arr)
-  r2 = 1 if divideAndConquer(arr1, 0, len(arr1) - 1) > -1 else 0
+  r2 = 1 if len(divideAndConquerNew(arr1, 0, len(arr1) - 1)[0]) > 0 else 0
   
   if (r1 == r2):
     print(' - pass!')
@@ -101,10 +144,10 @@ while True:
     break
 '''
 
-file = open('sample/4_2_majority_element.in', 'r')
+file = open('../sample/4_2_majority_element.in', 'r')
 n = file.readline()
 arr = [*map(int, file.readline().split())]
 
 #print(greedy(arr))
-print(divideAndConquer(arr, 0, len(arr) - 1))
+print(divideAndConquerNew(arr, 0, len(arr) - 1)[0][0])
 

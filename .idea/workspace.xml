@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5c6a3d5-d3e3-47ed-a763-87086f3595fe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/CelebrationParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CelebrationParty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/ChangingMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ChangingMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/CollectionSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CollectionSignature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CountSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/FibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FibonacciNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/FractionKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FractionKnapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/GreatestCommonDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/HugeFiboNumMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/HugeFiboNumMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/LastDigitLargeFibonacciNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LastDigitLargeFibonacciNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/LastDigitOfSumOfFiboNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LastDigitOfSumOfFiboNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/LastDigitParticialSumOfFiboNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LastDigitParticialSumOfFiboNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/LeastCommonMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LeastCommonMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/MaxNumPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxNumPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/MaxPairwiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxPairwiseProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/MaxRevAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxRevAd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/MaxSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/MultiplePolynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MultiplePolynomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/NumInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/NumInversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/3_2_loot.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/3_3_dot_product20180216.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/3_4_covering_segments.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/3_6_largest_number.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/4_1_binary_search.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/4_2_majority_element.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/sample/4_4_inversions.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/MajorityElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/MajorityElement.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,21 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Algo.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c++/Algo.cpp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MajorityElement.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/MajorityElement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearch.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/BinarySearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="534">
+              <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,6 +54,7 @@
         <option value="$PROJECT_DIR$/java/src/QuickSort.java" />
         <option value="$PROJECT_DIR$/java/src/SelectionSort.java" />
         <option value="$PROJECT_DIR$/java/src/Test.java" />
+        <option value="$PROJECT_DIR$/python/MajorityElement.py" />
       </list>
     </option>
   </component>
@@ -109,9 +72,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +82,13 @@
             <path>
               <item name="Algorithmic_Design_and_Techniques" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithmic_Design_and_Techniques" type="462c0819:PsiDirectoryNode" />
-              <item name="c++" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithmic_Design_and_Techniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithmic_Design_and_Techniques" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithmic_Design_and_Techniques" type="b2602c69:ProjectViewProjectNode" />
@@ -133,6 +99,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,47 +226,59 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3289183" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.17108168" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.2869757" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
-      <window_info id="Learn" />
+      <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/c++/Algo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,17 +404,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c++/Algo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/BinarySearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c++/Algo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/MajorityElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="151" column="1" selection-start-line="151" selection-start-column="1" selection-end-line="151" selection-end-column="1" />
         </state>
       </provider>
     </entry>
