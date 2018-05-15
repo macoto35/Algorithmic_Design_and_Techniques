@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5c6a3d5-d3e3-47ed-a763-87086f3595fe" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/java/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/CelebrationParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CelebrationParty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/ChangingMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ChangingMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/CollectionSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CollectionSignature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CountSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/FibonacciNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FibonacciNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/FractionKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FractionKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/HugeFiboNumMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/HugeFiboNumMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/LastDigitLargeFibonacciNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LastDigitLargeFibonacciNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/LastDigitOfSumOfFiboNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LastDigitOfSumOfFiboNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/LastDigitParticialSumOfFiboNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LastDigitParticialSumOfFiboNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/LeastCommonMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/LeastCommonMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/MaxNumPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxNumPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/MaxPairwiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxPairwiseProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/MaxRevAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxRevAd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/MaxSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaxSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/MultiplePolynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MultiplePolynomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/NumInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/NumInversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/3_2_loot.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/3_3_dot_product20180216.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/3_4_covering_segments.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/3_6_largest_number.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/4_1_binary_search.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/4_2_majority_element.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/sample/4_4_inversions.in" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Algo.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c++/Algo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/BinarySearch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/java/src/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/java/src/CelebrationParty.java" />
+        <option value="$PROJECT_DIR$/java/src/ChangingMoney.java" />
+        <option value="$PROJECT_DIR$/java/src/CollectionSignature.java" />
+        <option value="$PROJECT_DIR$/java/src/CountSort.java" />
+        <option value="$PROJECT_DIR$/java/src/FibonacciNumbers.java" />
+        <option value="$PROJECT_DIR$/java/src/FractionKnapsack.java" />
+        <option value="$PROJECT_DIR$/java/src/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/java/src/HugeFiboNumMod.java" />
+        <option value="$PROJECT_DIR$/java/src/LastDigitLargeFibonacciNum.java" />
+        <option value="$PROJECT_DIR$/java/src/LastDigitOfSumOfFiboNum.java" />
+        <option value="$PROJECT_DIR$/java/src/LastDigitParticialSumOfFiboNum.java" />
+        <option value="$PROJECT_DIR$/java/src/LeastCommonMultiple.java" />
+        <option value="$PROJECT_DIR$/java/src/MaxNumPrice.java" />
+        <option value="$PROJECT_DIR$/java/src/MaxPairwiseProduct.java" />
+        <option value="$PROJECT_DIR$/java/src/MaxRevAd.java" />
+        <option value="$PROJECT_DIR$/java/src/MaxSalary.java" />
+        <option value="$PROJECT_DIR$/java/src/MergeSort.java" />
+        <option value="$PROJECT_DIR$/java/src/MultiplePolynomial.java" />
+        <option value="$PROJECT_DIR$/java/src/NumInversion.java" />
+        <option value="$PROJECT_DIR$/java/src/QuickSort.java" />
+        <option value="$PROJECT_DIR$/java/src/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/java/src/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="232" />
+    <option name="y" value="45" />
+    <option name="width" value="1400" />
+    <option name="height" value="897" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithmic_Design_and_Techniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithmic_Design_and_Techniques" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithmic_Design_and_Techniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithmic_Design_and_Techniques" type="462c0819:PsiDirectoryNode" />
+              <item name="c++" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithmic_Design_and_Techniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithmic_Design_and_Techniques" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sohee-um\program\git_repo\Algorithmic_Design_and_Techniques\java\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+      <module name="Algorithmic_Design_and_Techniques" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CelebrationParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CelebrationParty" />
+      <module name="Algorithmic_Design_and_Techniques" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MaxRevAd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxRevAd" />
+      <module name="Algorithmic_Design_and_Techniques" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Algorithmic_Design_and_Techniques" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.CelebrationParty" />
+      <item itemvalue="Application.MaxRevAd" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MaxRevAd" />
+        <item itemvalue="Application.CelebrationParty" />
+        <item itemvalue="Application.BinarySearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5c6a3d5-d3e3-47ed-a763-87086f3595fe" name="Default" comment="" />
+      <created>1526366595687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526366595687</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5005208" side_tool="true" visible="true" weight="0.3289183" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.2869757" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info id="Learn" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java/src/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/CelebrationParty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/ChangingMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/CollectionSignature.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/CountSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/FibonacciNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/FractionKnapsack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/HugeFiboNumMod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LastDigitLargeFibonacciNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LastDigitOfSumOfFiboNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LastDigitParticialSumOfFiboNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/LeastCommonMultiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MaxNumPrice.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MaxPairwiseProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MaxRevAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MaxSalary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/MultiplePolynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/NumInversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="54" column="75" lean-forward="true" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c++/Algo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/BinarySearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithmic_Design_and_Techniques</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
