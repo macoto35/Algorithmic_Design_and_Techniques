@@ -1,4 +1,4 @@
-'''
+
 def naiveOrgLottery(segs, nums):
   result = []
   sum = 0
@@ -11,11 +11,9 @@ def naiveOrgLottery(segs, nums):
     result.append(sum)
 
   return result
-print(*naiveOrgLottery(segs, nums))
-'''
-
 
 s,p = map(int, input().split())
 segs = []
 exec('segs.append([*map(int, input().split())]); ' * s)
 nums = [*map(int, input().split())]
+#print(*naiveOrgLottery(segs, nums))

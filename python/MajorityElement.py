@@ -37,41 +37,41 @@ def greedy(arr):
   return -1
 
 
-def scan(arr, size):
-  elemt = -1
-  cnt = 0
-  
-  while len(arr) > 0:
-    x = arr[0]
-    i = 0
-    cnt = 0
-    while len(arr) > i and len(arr) > 0:
-      if x == arr[i]:
-        arr.pop(i)
-        cnt += 1
-      else:
-        i += 1
-    if cnt > size // 2:
-      elemt = x
-      break
+def scan(arr, st, m, ed, a, b):
+  if a[0] != -1:
+    for i in range(m + 1, ed + 1):
+      if a[0] == arr[i]:
+        a[1] += 1
 
-  return elemt
+  if b[0] != -1:
+    for i in range(st, m + 1):
+      if b[0] == arr[i]:
+        b[1] += 1
 
-def findMajority(arr, st, ed, a, b):
-  if a == b:
+  m = (ed - st + 1) //2
+
+  if a[1] > m:
     return a
+  elif b[1] > m:
+    return b
   else:
-    return scan(arr[st:ed + 1], ed - st + 1)
+    return [-1, 0]
+
+def findMajority(arr, st, m, ed, a, b):
+  if a[0] == b[0]:
+    return [a[0], a[1]+b[1]]
+  else:
+    return scan(arr, st, m, ed, a, b)
 
 def divideAndConquer(arr, st, ed):
   if st == ed:
-    return arr[st]
+    return [arr[st], 1]
   
   m = st + (ed - st) // 2
   
   a = divideAndConquer(arr, st, m)
   b = divideAndConquer(arr, m + 1, ed)
-  return findMajority(arr, st, ed, a, b)
+  return findMajority(arr, st, m, ed, a, b)
 
 
 def merge(A, B):
@@ -115,13 +115,41 @@ def divideAndConquerNew(arr, st, ed):
 
   return merge(A, B)
 
+
+def mooreVotingAlgo(arr):
+    majorityElemt = arr[0]
+    cnt = 1
+
+    # find candidate
+    for i in arr[1:]:
+        if majorityElemt == i:
+            cnt += 1
+        else:
+            cnt -= 1
+
+        if cnt == 0:
+            majorityElemt = i
+            cnt = 1
+
+    # check the candidate is majority elemt
+    cnt = 0
+    for i in arr:
+        if majorityElemt == i:
+            cnt += 1
+
+    if cnt > len(arr) // 2:
+        return majorityElemt
+    else:
+        return -1
+
 '''
 arr = [2,2,3,2,7]
 arr1 = [1,2,3,1,1]
 #print(naive(arr))
 #print(greedy(arr1))
-#print(divideAndConquer(arr, 0, len(arr1) - 1))
-print(divideAndConquerNew(arr, 0, len(arr) - 1))
+#print(divideAndConquer(arr, 0, len(arr) - 1))
+#print(divideAndConquerNew(arr, 0, len(arr) - 1))
+#print(mooreVotingAlgo(arr))
 '''
 
 '''
@@ -144,10 +172,12 @@ while True:
     break
 '''
 
+
 file = open('../sample/4_2_majority_element.in', 'r')
 n = file.readline()
 arr = [*map(int, file.readline().split())]
 
 #print(greedy(arr))
-print(divideAndConquerNew(arr, 0, len(arr) - 1)[0][0])
-
+#print(divideAndConquer(arr, 0, len(arr) - 1))
+#print(divideAndConquerNew(arr, 0, len(arr) - 1)[0][0])
+print(mooreVotingAlgo(arr))
