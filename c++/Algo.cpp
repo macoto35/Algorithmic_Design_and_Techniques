@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "NumInversion.h"
+#include "RecursiveChange.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	NumInversion();
+	RecursiveChange();
 	return 0;
 }
