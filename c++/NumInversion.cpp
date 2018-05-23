@@ -71,7 +71,7 @@ NumInversion::NumInversion()
 	cout << sum << endl;*/
 
 	ifstream file;
-	file.open("C:/Users/sohee-um/program/git_repo/Algorithmic_Design_and_Techniques/sample/4_4_inversions.in");
+	file.open("./sample/4_4_inversions.in");
 	
 	int n;
 	file >> n;

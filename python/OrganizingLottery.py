@@ -1,18 +1,17 @@
-'''
+
+from random import *
+
 def naiveOrgLottery(segs, nums):
-  result = []
-  sum = 0
-
-  for n in nums:
+    result = []
     sum = 0
-    for s in segs:
-      if (s[0] <= n and s[1] >= n):
-        sum += 1
-    result.append(sum)
 
-  return result
-print(*naiveOrgLottery(segs, nums))
-'''
+    for n in nums:
+        sum = 0
+        for s in segs:
+            if (s[0] <= n and s[1] >= n):
+                sum += 1
+        result.append(sum)
+    return result
 
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
@@ -22,19 +21,18 @@ def partition(arr, st, ed):
     m1 = m2 = st
     j = st + 1
 
-    print(arr, st, ed, x, m1, m2, j)
     while j <= ed:
-        print(arr, j,'/',ed, arr[j][0])
         if x > arr[j][0]:
             m1 += 1
             m2 += 1
-            print('small: ', m1, m2, j)
             swap(arr, m2, j)
             swap(arr, m1, m2)
-        if x == arr[j][0]:
+        elif x == arr[j][0]:
             m2 += 1
-            print('same: ',m2, j)
             swap(arr, m2, j)
+            print(x, arr, m1, m2, j)--------------------------------------------------------------------------------
+            if x == arr[m2 - 1] and arr[m2 - 1][1] == 'p':
+                swap(arr, m2, m2 - 1)
         j += 1
 
     swap(arr, st, m1)
@@ -67,13 +65,73 @@ def quickSort(arr, st, ed):
             quickSort(arr, m2 + 1, ed)
             ed = m1 - 1
 
+def daqOrgLottery(segs, nums):
+    arr = segs + nums
+    quickSort(arr, 0, len(arr) - 1)
+    print(arr)
+
+    result = []
+    count = []
+    for i in range(0, len(arr)):
+        p = arr[i]
+        if p[1] == 'p':
+            cnt = 0
+            for j in range(0, i):
+                if arr[j][1] != 'p':
+                    if arr[j][1] == 'l':
+                        cnt += 1
+                    elif arr[j][0] == p[0] and arr[j][1] == 'r':
+                        cnt += 0
+                    else:
+                        cnt += -1
+                #print(p, arr[j], cnt)
+            result.append([p[0], cnt if cnt  > 0 else 0])
+
+    return result
+
 '''
 s,p = map(int, input().split())
 segs = []
-exec('segs.append([*map(int, input().split())]); ' * s)
-nums = [*map(int, input().split())]
+exec('l = [*map(int, input().split())]; segs.append([l[0], "l"]); segs.append([l[1], "r"]);' * s)
+nums = [ [item, 'p'] for item in map(int, input().split()) ]
+#print(*naiveOrgLottery(segs, nums))
+print(daqOrgLottery(segs, nums))
 '''
 
-segs = [[2,7],[2,2],[1,3]]
-quickSort(segs, 0, len(segs) - 1)
-print(segs)
+
+segs = [[6, 'l'], [10, 'r'], [5, 'l'], [7, 'r'], [2, 'l'], [10, 'r']]
+nums = [[10, 'p'], [2, 'p'], [5, 'p'], [2, 'p'], [1, 'p']]
+print(daqOrgLottery(segs, nums))
+'''
+
+S, P, Ki, Kj = map(int, input().split())
+while True:
+    s = randint(1, S)
+    p = randint(1, P)
+    segs1 = []
+    segs2 = []
+    for i in range(0, s):
+        l = randint(Ki, Kj)
+        r = randint(l, Kj)
+        segs1.append([l, r])
+        segs2.append([l, 'l'])
+        segs2.append([r, 'r'])
+    nums1 = []
+    nums2 = []
+    for i in range(0, p):
+        val = randint(Ki, Kj)
+        nums1.append(val)
+        nums2.append([val, 'p'])
+
+    print('segements: ', segs2, 'numbers: ', nums2)
+
+    res1 = naiveOrgLottery(segs1, nums1)
+    res2 = daqOrgLottery(segs2, nums2)
+    print(res1, '|', res2, end = ' ')
+
+    if sum(res1) == sum(r[1] for r in res2):
+        print(' - pass!')
+    else:
+        print(' - fail!')
+        break
+'''

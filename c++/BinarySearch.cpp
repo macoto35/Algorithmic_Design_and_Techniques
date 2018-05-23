@@ -49,7 +49,7 @@ BinarySearch::BinarySearch()
 	cout << cnt << endl;*/
 
 	ifstream file;
-	file.open("C:/Users/sohee-um/program/workspace/etc/resource/py/sample/4_1_binary_search.in");
+	file.open("./sample/4_1_binary_search.in");
 	if (!file) 
 	{
 		cout << "Unable to open the file!" << endl;

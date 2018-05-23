@@ -62,7 +62,7 @@ MajorityElemt::MajorityElemt()
 	cout << result[0] << '/' << result[1] << endl;*/
 
 	ifstream file;
-	file.open("C:/Users/sohee-um/program/git_repo/Algorithmic_Design_and_Techniques/sample/4_2_majority_element.in");
+	file.open("./sample/4_2_majority_element.in");
 	if (!file)
 	{
 		cout << "Unable to open this file!" << endl;

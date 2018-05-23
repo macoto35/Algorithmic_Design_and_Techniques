@@ -36,7 +36,7 @@ def dpChange(money, coins):
 
 #print(greedyChange(997, [2,4,8]))
 #print(recursiveChange(950, [1,3,4]))
-print(dpChange(950, [1,3,4]))
+print(dpChange(5, [1,2,3]))
 
 '''
 money = 1

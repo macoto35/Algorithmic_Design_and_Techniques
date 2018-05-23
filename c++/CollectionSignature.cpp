@@ -56,7 +56,7 @@ int start()
 	cout << greedy(arr) << endl;*/
 
 	ifstream file;
-	file.open("C:/Users/sohee-um/program/workspace/etc/resource/py/sample/3_4_covering_segments.in");
+	file.open("./sample/3_4_covering_segments.in");
 	if (!file) {
 		cout << "Unable to open file!" << endl;
 		exit(1);

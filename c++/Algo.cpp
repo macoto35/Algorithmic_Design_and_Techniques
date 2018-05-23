@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "RecursiveChange.h"
+#include "LongestCommonSubsequenceOfTwo.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	RecursiveChange();
+	LongestCommonSubsequenceOfTwo();
 	return 0;
 }

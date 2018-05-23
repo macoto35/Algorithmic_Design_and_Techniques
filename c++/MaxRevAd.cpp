@@ -42,7 +42,7 @@ int start()
 	cout << greedy(n, a, b) << endl;*/
 
 	ifstream file;
-	file.open("C:/Users/sohee-um/program/workspace/etc/resource/py/sample/3_3_dot_product20180216.in");
+	file.open("./sample/3_3_dot_product20180216.in");
 	if (!file) {
 		cout << "Unable to open file!" << endl;
 		exit(1);

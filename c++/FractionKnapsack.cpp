@@ -54,7 +54,7 @@ int start()
 
 
 	ifstream file;
-	file.open("C:/Users/sohee-um/program/workspace/etc/resource/py/sample/3_2_loot.in");
+	file.open("./sample/3_2_loot.in");
 	if (!file) {
 		cout << "Unable to open file!" << endl;
 		exit(1);
