@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "LongestCommonSubsequenceOfTwo.h"
+#include "PartitioningSouvenirs.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LongestCommonSubsequenceOfTwo();
+	PartitioningSouvenirs();
 	return 0;
 }

@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "CelebrationParty.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ void greedy(vector<int> &ages)
 	}
 }
 
-int start()
+CelebrationParty::CelebrationParty()
 {
 	int n = 0;
 	cin >> n;
@@ -27,6 +28,8 @@ int start()
 		cin >> ages[i];
 
 	greedy(ages);
+}
 
-	return 0;
+CelebrationParty::~CelebrationParty()
+{
 }
