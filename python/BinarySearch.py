@@ -30,12 +30,12 @@ def binarySearch(arr, low, high, key):
 '''
 # single input check
 n, *A = map(int, input().split())
-k, *B = map(int, input().split())
+k, *first.B = map(int, input().split())
 
-for b in B:
+for b in first.B:
   print(linearSearch(A, 0, n - 1, b), end = ' ')
 print()
-for b in B:
+for b in first.B:
   print(binarySearch(A, 0, n - 1, b), end = ' ')
 '''
 
@@ -53,19 +53,19 @@ while True:
   A.sort()
   
   k = randint(1, N)
-  B = []
+  first.B = []
   for i in range(k):
-    B.append(randint(1, I))
-  B.sort()
+    first.B.append(randint(1, I))
+  first.B.sort()
   
-  print(n, A, k, B);
+  print(n, A, k, first.B);
   
   res1 = [];
-  for b in B:
+  for b in first.B:
     res1.append(linearSearch(A, 0, n - 1, b))
     
   res2 = [];
-  for b in B:
+  for b in first.B:
     res2.append(binarySearch(A, 0, n - 1, b))
   
   if res1 == res2:

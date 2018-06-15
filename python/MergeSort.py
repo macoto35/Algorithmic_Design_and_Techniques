@@ -8,9 +8,9 @@ def mergeSort(arr, st, ed):
   print(st, m, ed)
   print('call A-----')
   A = mergeSort(arr, st, m)
-  print('call B-----')
+  print('call first.B-----')
   B = mergeSort(arr, m+1, ed)
-  print('merge A and B')
+  print('merge A and first.B')
   return merge(A, B)
 
 def merge(A, B):

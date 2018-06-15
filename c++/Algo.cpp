@@ -2,11 +2,11 @@
 //
 
 #include "stdafx.h"
-#include "PartitioningSouvenirs.h"
+#include "maxValArithmeticExpression.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	PartitioningSouvenirs();
+	maxValArithmeticExpression();
 	return 0;
 }

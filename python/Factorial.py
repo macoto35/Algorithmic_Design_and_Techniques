@@ -10,5 +10,3 @@ def dpFactorial(n):
 
 n = int(input())
 print(dpFactorial(n))
-
-2,432,902,008,176,640,000

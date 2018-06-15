@@ -29,12 +29,12 @@ public class BinarySearch {
 		}
 		
 		int k = scanner.nextInt();
-		int[] B = new int[k];
+		int[] first.B = new int[k];
 		for (int i = 0 ; i < k ; i++) {
-			B[i] = scanner.nextInt();
+			first.B[i] = scanner.nextInt();
 		}
 		
-		for (int b : B) {
+		for (int b : first.B) {
 			System.out.print(binarySearch(A, 0, n - 1, b) + " ");
 		}
 

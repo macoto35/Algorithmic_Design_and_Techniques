@@ -42,6 +42,7 @@ public class PartitioningSouvenirs {
             }
         }
 
+
         if (used.size() > 0)
             for(int idx : used)
                 values.remove(idx);

@@ -26,6 +26,6 @@ file = open('../sample/5_4_lcs2.in')
 n = int(file.readline())
 A = [*map(int, file.readline().split())]
 m = int(file.readline())
-B = [*map(int, file.readline().split())]
-print(dpLCS(n, A, m, B))
+first.B = [*map(int, file.readline().split())]
+print(dpLCS(n, A, m, first.B))
 '''
